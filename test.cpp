@@ -14,6 +14,8 @@ using namespace std;
 
 int a[100005];
 
+// I was here
+
 signed main() {
     freopen(lfi);
     freopen(lfo);
