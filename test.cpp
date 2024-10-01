@@ -12,6 +12,7 @@ using namespace std;
     //cout.tie(0);
 // }
 
+int a[100005];
 
 signed main() {
     freopen(lfi);
@@ -21,6 +22,10 @@ signed main() {
     int n;
     cin >> n;
     cout << n;
+    for (int i=1; i<=n; i++) {
+        cout<<i*i<<'\n';
+    }
+
 
     fclose(stdin);
     fclose(stdout);
